@@ -30,7 +30,7 @@ Os usuários devem ser capazes de:
 
 ## Links
 - URL da Solução: [https://github.com/Luiz-Antoni0/quest-html-css-avancado-huddle-landing-page.git](https://github.com/Luiz-Antoni0/quest-html-css-avancado-huddle-landing-page.git)
-- URL do Site Ativo: [https://luiz-antoni0.github.io/quest-html-css-avancado-huddle-landing-page/](https://luiz-antoni0.github.io/quest-html-css-avancado-huddle-landing-page/)
+- URL do Site Ativo: <a href="https://luiz-antoni0.github.io/quest-html-css-avancado-huddle-landing-page/" target="_blank">https://luiz-antoni0.github.io/quest-html-css-avancado-huddle-landing-page/</a>
 
 ## Meu processo
 
