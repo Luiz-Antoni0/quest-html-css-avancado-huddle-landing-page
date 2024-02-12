@@ -47,8 +47,3 @@ Os usuários devem ser capazes de:
 - [Google Fonts](https://fonts.google.com/) - Através dele encontrei as fontes que o projeto pedia, com o peso de cada uma delas e as suas famílias.
 
 - [Boxicons](https://boxicons.com/) - Foi com ele que conseguir encontrar os icones das redes socias, que se pedia no projeto.
-
-### Autor
-
-- GitHub - [Luiz-Antoni0](https://github.com/Luiz-Antoni0)
-- Frontend Mentor - [@Luiz-Antoni0](https://www.frontendmentor.io/profile/Luiz-Antoni0)
