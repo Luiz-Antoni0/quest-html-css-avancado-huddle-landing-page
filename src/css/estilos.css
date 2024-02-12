@@ -1,0 +1,117 @@
+
+body {
+    background: url(../imagens/bg-desktop.svg) center center no-repeat;
+    background-size: cover; 
+    background-color: var(--violeta);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 50px 67px;
+}
+
+.logo img{
+    width: 220px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    padding: 0px 60px;
+    gap: 20px;
+}
+
+.container .mockup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .mockup img{
+    max-width: 100%;
+}
+
+.container .informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.container .informacao{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 5px;
+    width: 100%;
+    height: 508px;
+    gap: 20px;
+}
+
+.container .informacao .titulo{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 4rem;
+    color: var(--branco);
+}
+
+.container .informacao .texto{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 1.9rem;
+    line-height: 2.7rem;
+    color: var(--branco);
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.container .informacao .btn-register {
+    background-color: var(--branco);
+    padding: 15px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    color: var(--azul);
+    font-size: 2rem;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+.container .informacao .btn-register:hover{
+    background-color: var(--magenta-suave);
+    color: var(--branco);
+    transition: all 0.2s ease-in-out;
+}
+
+.container .informacoes .redes-sociais{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.container .informacoes .redes-sociais i{
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.container .informacoes .redes-sociais a{
+    color: var(--branco);
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.container .informacoes .redes-sociais a:hover{
+    color: var(--magenta-suave);
+    transform: scale(1.1);
+    transition: all .2s ease-in;
+}
