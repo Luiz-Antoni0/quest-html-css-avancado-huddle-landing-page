@@ -16,7 +16,7 @@
 
 @media(max-width: 1080px){
     body{
-        height: 70vh;
+        height: 100vh;
     }
 
     .container{
@@ -30,7 +30,8 @@
         text-align: center;
     }
 
-    .container .informacoes .btn-register {
+    .container .informacoes .btn-register,
+    .container .informacoes .redes-sociais {
         justify-content: center;
     }
 }
@@ -45,6 +46,7 @@
 
     .logo{
         padding: 35px 35px;
+        text-align: center;
     }
 
     .logo img{
@@ -55,7 +57,8 @@
     .container{
         display: flex;
         justify-content: center;
-        padding: 0 15px;
+        align-items: center;
+        padding: 15px;
         gap: 0;
     }
 
@@ -84,11 +87,12 @@
         font-size: 1.3rem;
     }
 
-    .container .informacoes .redes-sociais i{
-        font-size: 1.6rem;
+    .container .informacoes .redes-sociais{
+        justify-content: center;
     }
 
-    .container .informacoes .redes-sociais a{
-        margin: 10px;
+    .container .informacoes .redes-sociais i{
+        font-size: 2rem;
+        align-items: center;
     }
 }
