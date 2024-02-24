@@ -4,6 +4,13 @@ body {
     background-size: cover; 
     background-color: var(--violeta);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1440px;
 }
 
 .logo{
@@ -18,17 +25,16 @@ body {
     height: auto;
 }
 
-.container{
+.conteudo-principal{
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 1440px;
-    height: auto;
     padding: 0px 60px;
     gap: 20px;
 }
 
-.container .mockup{
+.conteudo-principal .mockup{
     width: 100%;
     height: auto;
     display: flex;
@@ -36,18 +42,18 @@ body {
     align-items: center;
 }
 
-.container .mockup img{
+.conteudo-principal .mockup img{
     max-width: 100%;
 }
 
-.container .informacoes{
+.conteudo-principal .informacoes{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
 }
 
-.container .informacao{
+.conteudo-principal .informacao{
     display: flex;
     flex-direction: column;
     padding: 30px 5px;
@@ -55,14 +61,14 @@ body {
     gap: 20px;
 }
 
-.container .informacao .titulo{
+.conteudo-principal .informacao .titulo{
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 4rem;
     color: var(--branco);
 }
 
-.container .informacao .texto{
+.conteudo-principal .informacao .texto{
     font-family: 'OpenSans', sans-serif;
     font-size: 1.9rem;
     line-height: 2.7rem;
@@ -71,7 +77,7 @@ body {
     font-weight: 400;
 }
 
-.container .informacao .btn-register {
+.conteudo-principal .informacao .btn-register {
     background-color: var(--branco);
     padding: 15px;
     width: 200px;
@@ -85,36 +91,36 @@ body {
     margin-bottom: 30px;
 }
 
-.container .informacao .btn-register:hover{
+.conteudo-principal .informacao .btn-register:hover{
     background-color: var(--magenta-suave);
     color: var(--branco);
     transition: all 0.2s ease-in-out;
 }
 
-.container .informacoes .redes-sociais{
+.conteudo-principal .informacoes .redes-sociais{
     display: flex;
     width: 100%;
     justify-content: right;
     gap: 10px;
 }
 
-.container .informacoes .redes-sociais i{
+.conteudo-principal .informacoes .redes-sociais i{
     font-size: 3rem;
     padding: 10px;
 }
 
-.container .informacoes .redes-sociais li{
+.conteudo-principal .informacoes .redes-sociais li{
     color: var(--branco);
     border: 2px solid;
     border-radius: 50%;
 }
 
-.container .informacoes .redes-sociais a{
+.conteudo-principal .informacoes .redes-sociais a{
     color: var(--branco);
 }
 
-.container .informacoes .redes-sociais li:hover,
-.container .informacoes .redes-sociais a:hover{
+.conteudo-principal .informacoes .redes-sociais li:hover,
+.conteudo-principal .informacoes .redes-sociais a:hover{
     color: var(--magenta-suave);
     transform: scale(1.1);
     transition: all .2s ease-in;

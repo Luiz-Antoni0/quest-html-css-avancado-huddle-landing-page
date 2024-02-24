@@ -3,14 +3,14 @@
         height: 100vh;
     }
 
-    .container{
+    .conteudo-principal{
         flex-flow: row wrap;
         align-items: center;
         text-align: center;
     }
 
-    .container img{
-        width: 500px;
+    .conteudo-principal .mockup img{
+        width: 450px;
     }
 }
 
@@ -20,79 +20,86 @@
     }
 
     .container{
+        max-height: 100vh;
+        padding: 30px;
+        margin: 30px;
+    }
+
+    .conteudo-principal{
         flex-flow: wrap;
         justify-content: center;
     }
 
-    .container .informacao{
+    .conteudo-principal .informacoes .informacao{
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .container .informacoes .btn-register,
-    .container .informacoes .redes-sociais {
+    .conteudo-principal .informacoes .informacao .btn-register,
+    .conteudo-principal .informacoes .redes-sociais {
         justify-content: center;
     }
 }
 
 @media(max-width: 480px) {
     body{
-        background: url(../imagens/bg-mobile.svg) center center no-repeat;
-        background-size: cover;
+        background: url(../imagens/bg-mobile.svg) no-repeat;
+        background-size: 50% cover;
         background-color: var(--violeta);
-        height: 50vh;
+        height: 50%;
+        overflow-x: hidden;
     }
 
-    .logo{
+    .conteudo-principal .logo{
         padding: 35px 35px;
         text-align: center;
     }
 
-    .logo img{
+    .conteudo-principal .logo img{
         width: 130px;
         height: auto;
     }
     
-    .container{
+    .conteudo-principal{
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 15px;
-        gap: 0;
+        gap: 10;
     }
 
-    .container .mockup img{
-        width: 300px;
+    .conteudo-principal .mockup img{
+        width: 250px;
         margin: 26px 40px;
     }
 
-    .container .informacoes{
+    .conteudo-principal .informacoes{
         width: 100%;
         padding: 0;
         gap: 10px;
     }
 
-    .container .informacoes .informacao .titulo{
-        font-size: 2.4rem;
+    .conteudo-principal .informacoes .informacao .titulo{
+        font-size: 1.8rem;
     }
 
-    .container .informacoes .informacao .texto{
-        font-size: 1.6rem;
+    .conteudo-principal .informacoes .informacao .texto{
+        font-size: 1.2rem;
         padding: 0;
         line-height: 20px;
     }
 
-    .container .informacoes .informacao .btn-register{
+    .conteudo-principal .informacoes .informacao .btn-register{
         font-size: 1.3rem;
     }
 
-    .container .informacoes .redes-sociais{
+    .conteudo-principal .informacoes .redes-sociais{
         justify-content: center;
     }
 
-    .container .informacoes .redes-sociais i{
-        font-size: 2rem;
+    .conteudo-principal .informacoes .redes-sociais i{
+        font-size: 1.6rem;
         align-items: center;
     }
 }
